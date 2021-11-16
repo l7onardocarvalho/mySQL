@@ -79,6 +79,30 @@ INSERT INTO `funcionarios` VALUES (1,'Robson pereira','Professor/redes','tarde',
 UNLOCK TABLES;
 
 --
+-- Table structure for table `mais1teste`
+--
+
+DROP TABLE IF EXISTS `mais1teste`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `mais1teste` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(200) DEFAULT NULL,
+  `idade` int(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mais1teste`
+--
+
+LOCK TABLES `mais1teste` WRITE;
+/*!40000 ALTER TABLE `mais1teste` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mais1teste` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `materia`
 --
 
@@ -178,4 +202,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-16 15:12:56
+-- Dump completed on 2021-11-16 15:26:05
