@@ -168,27 +168,6 @@ LOCK TABLES `tabelanova` WRITE;
 INSERT INTO `tabelanova` VALUES (1,'Rafael guimaraes','M','1 informatica','tarde','rua da estreia n100',25489999,111233344,'exemplo1@exemplo.com.br','1234'),(2,'Rafael guimaraes','M','1 informatica','tarde','rua da estreia n100',25489999,111233344,'exemplo1@exemplo.com.br','1234'),(3,'Luana Pereira','F','2 informatica','tarde','rua da ajuda n50',25488888,54265768,'exemplo2@exemplo.com.br','1234'),(4,'Ana Paula Gomes','F','3 informatica','tarde','rua do socorro n7',25465779,11123344,'exemplo3@exemplo.com.br','1234'),(5,'Antônio Gilberto pereira','M','1 adm','manha','av brasil n11000',33556699,44454599,'exemplo4@exemplo.com.br','1234'),(6,'Maria Teresa Ramos','F','2 adm','manha','estrada do tindiba n1005',23445500,11122234,'exemplo5@exemplo.com.br','1234'),(7,'Robson Bustamante','M','3 adm','manha','rua beiramar n157',33445566,33366690,'exemplo6@exemplo.com.br','1234'),(8,'Pedro Sampaio','M','2 adm','tarde','rua das couves 100',3357675,98625288,'exemplo8@exemplo.com.br','1234'),(9,'Jonas Profeta','M','3 informatica','manha','rua do catete 777',7771777,7777777,'exemplo7@exemplo.com.br','7777'),(10,'Karolina Costa','F','1 adm','manha','av.nova holanda 12',20356062,1262288,'exemplo9@exemplo.com.br','1234'),(11,'Daniele Barreto','F','2 informatica','tarde','rua do vidigal',98627731,3277721,'exemplo10@exemplo.com.br','1234');
 /*!40000 ALTER TABLE `tabelanova` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Table structure for table `teste`
---
-
-DROP TABLE IF EXISTS `teste`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `teste` (
-  `nome` varchar(10) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `teste`
---
-
-LOCK TABLES `teste` WRITE;
-/*!40000 ALTER TABLE `teste` DISABLE KEYS */;
-/*!40000 ALTER TABLE `teste` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -199,4 +178,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-16 15:17:40
+-- Dump completed on 2021-11-16 15:20:09
